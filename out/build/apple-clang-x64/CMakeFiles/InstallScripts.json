@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64/cmake_install.cmake",
+		"/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64/ThanUI/cmake_install.cmake",
+		"/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64/ThanUI/glfw_build/cmake_install.cmake",
+		"/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64/ThanUI/glfw_build/src/cmake_install.cmake",
+		"/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64/ThanUI/glfw_build/docs/cmake_install.cmake",
+		"/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64/ThanUI/glad_build/cmake_install.cmake",
+		"/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64/ThanUI/imgui_build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

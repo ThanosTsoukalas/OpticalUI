@@ -1,0 +1,3 @@
+/Users/thanossoublakopitas/Desktop/Development/ThanUI/ThanUI/build/CMakeFiles/ThanUI.dir
+/Users/thanossoublakopitas/Desktop/Development/ThanUI/ThanUI/build/CMakeFiles/edit_cache.dir
+/Users/thanossoublakopitas/Desktop/Development/ThanUI/ThanUI/build/CMakeFiles/rebuild_cache.dir

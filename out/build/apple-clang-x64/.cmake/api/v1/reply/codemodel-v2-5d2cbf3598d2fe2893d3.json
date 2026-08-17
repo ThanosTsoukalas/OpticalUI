@@ -1,0 +1,290 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "OpenGL::GL::@a29037a9741695ea928f",
+					"jsonFile" : "target-OpenGL__GL-Debug-e90bf3034220626cbb1c.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "OpenGL::GLU::@a29037a9741695ea928f",
+					"jsonFile" : "target-OpenGL__GLU-Debug-c3d79a0b67d808bf02fb.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Threads::Threads::@c39d0ad5a42dc737486a",
+					"jsonFile" : "target-Threads__Threads-Debug-c5cd0e91c4554589673c.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ThanUI",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ThanUI-Debug-fb38144166e7f936d3bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ThanUI",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "ThanUI/glfw_build",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ThanUI.glfw_build-Debug-85028a1f1ea70c664386.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "ThanUI/extern_libs/glfw",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "ThanUI/glfw_build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ThanUI.glfw_build.src-Debug-6c8074cdbe9577db289a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ThanUI/extern_libs/glfw/src",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "ThanUI/glfw_build/docs",
+					"jsonFile" : "directory-ThanUI.glfw_build.docs-Debug-4514ae254787e5a270a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ThanUI/extern_libs/glfw/docs"
+				},
+				{
+					"build" : "ThanUI/glad_build",
+					"jsonFile" : "directory-ThanUI.glad_build-Debug-e9038ec9ab59c9f4686b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ThanUI/extern_libs/glad",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"build" : "ThanUI/imgui_build",
+					"jsonFile" : "directory-ThanUI.imgui_build-Debug-2a250ef94268abeb40d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ThanUI/extern_libs/imgui",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ThanUIDemo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6
+					],
+					"name" : "ThanUI",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ThanUI::@a37d6c40ab766f31748c",
+					"jsonFile" : "target-ThanUI-Debug-993b7d057bd75b924c59.json",
+					"name" : "ThanUI",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ThanUIDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ThanUIDemo-Debug-e3bfa7539d45cc2d4c54.json",
+					"name" : "ThanUIDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glad::@0c38b58be94dcc19b0ae",
+					"jsonFile" : "target-glad-Debug-dbd02506e302806637e5.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@9a19808f5a6ed5fec794",
+					"jsonFile" : "target-glfw-Debug-36b87659839743a087e0.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "imgui::@a29037a9741695ea928f",
+					"jsonFile" : "target-imgui-Debug-8174d4b4a12fd3a84bd4.json",
+					"name" : "imgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@c39d0ad5a42dc737486a",
+					"jsonFile" : "target-uninstall-Debug-726f6089843e6ab3933b.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@9a19808f5a6ed5fec794",
+					"jsonFile" : "target-update_mappings-Debug-1624809c7dcbbb14d47e.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/thanossoublakopitas/Desktop/Development/OpticalUI/out/build/apple-clang-x64",
+		"source" : "/Users/thanossoublakopitas/Desktop/Development/OpticalUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

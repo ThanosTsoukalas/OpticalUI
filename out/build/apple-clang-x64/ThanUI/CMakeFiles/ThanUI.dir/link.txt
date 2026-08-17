@@ -1,0 +1,2 @@
+/usr/bin/ar qc libThanUI.a CMakeFiles/ThanUI.dir/src/ThanUI.cpp.o
+/usr/bin/ranlib libThanUI.a
