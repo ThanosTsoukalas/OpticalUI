@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ThanUIDemo.dir/src/main.cpp.o -o ThanUIDemo  ThanUI/libThanUI.a ThanUI/imgui_build/libimgui.a ThanUI/glfw_build/src/libglfw3.a -framework Cocoa -framework IOKit -framework QuartzCore -framework CoreFoundation ThanUI/glad_build/libglad.a -framework OpenGL
